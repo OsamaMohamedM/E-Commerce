@@ -1,4 +1,5 @@
- import 'package:ecommerce/Views/Screens/onboardScreen.dart';
+ import 'package:ecommerce/Views/Screens/HomeScreen.dart';
+import 'package:ecommerce/Views/Screens/onboardScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "onBoardScreen":(context)=>onBoardScreen(),
       },
-      home: onBoardScreen(),
+      home: HomeScreen(),
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:ecommerce/Views/Screens/HomeScreen.dart';
 import 'package:ecommerce/Views/commponents/customTextForm.dart';
 import 'package:flutter/material.dart';
 
@@ -123,7 +124,9 @@ class _LoginPageState extends State<LoginPage> {
                       border: Border.all(width: 0, color: Colors.black),
                     ),
                     child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=> HomeScreen()), (root)=>false);
+                      },
                       child: const Text("Login",
                           style: TextStyle(
                               fontSize: 25,
