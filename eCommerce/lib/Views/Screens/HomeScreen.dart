@@ -200,12 +200,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     price: "250",
                   ),
                   buildBookCard(
-                    imagePath: "images/beforeLogin/4.png", // Example for additional card
+                    imagePath: "images/beforeLogin/4.png", 
                     title: "More Psychology",
                     category: "Psychology",
                     price: "300",
                   ),
-                  // Add more cards as needed
+              
                 ],
               ),
             )
